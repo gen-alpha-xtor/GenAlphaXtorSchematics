@@ -32,7 +32,7 @@ GenAlphaXtor will attempt to auto-configure a database from your VsCode workspac
 
 - Library definition files named either `lib.defs` or `cds.lib` will be auto-loaded. 
   - If your library definitions are in any other path, run the `GenAlphaXtor: Set Library Definitions` VsCode command and select their file.  
-- Environment variable files named either `.env` (in dotenv format) or `.env.json` (in JSON format) will be auto-loaded.
+- Environment variable files named either `.env` (in dotenv format) or `env.json` (in JSON format) will be auto-loaded.
   - If your environment file is at any other path, run the `GenAlphaXtor: Set Environment File` VsCode command to select it.
 
 After configuring a schematic database, `GenAlphaXtor` will write a resolution-file name `db.resolved.json` in the workspace root. This file contains the absolute paths to the library definitions and environment variables files that were loaded. It will also often be the best source of debug information if you're having trouble getting a database to load. The resolution-file attempts to catalog any information (typically variable-values) that it needed, but couldn't find. 
