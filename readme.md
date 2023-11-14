@@ -1,7 +1,11 @@
 
 # Generation Alpha Transistor Schematic Editor
 
-Edit real, working IC schematics live in VsCode. 
+![genalpha-sch-light](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-light.jpg)
+
+![genalpha-sch-dark](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-dark.jpg)
+
+Generation Alpha Transistor (`GenAlphaXtor`) schematic editor enables editing real, working integrated circuit schematics live in VsCode. 
 
 ## Preview Release
 
@@ -62,11 +66,11 @@ Example successful resolution-file:
 }
 ```
 
-Note running the popular Unix `env` utility *can*, but often doesn't, produce output compatible with the `dotenv` file format. Particularly `env` often includes special characters (and whitespace) which is not escaped or quoted. If running `env` to produce a `dotenv` file, expect to have to do some manual editing. JSON encoding, particularly when written by popular libraries, should avoid this problem. For example the (two-line) Python script [env.py]() will produce a JSON file compatible with GenAlphaXtor: 
+Note running the popular Unix `env` utility *can*, but often doesn't, produce output compatible with the `dotenv` file format. Particularly `env` often includes special characters (and whitespace) which is not escaped or quoted. If running `env` to produce a `dotenv` file, expect to have to do some manual editing. JSON encoding, particularly when written by popular libraries, should avoid this problem. For example the (two-line) Python script [env.py](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/env.py) will produce a JSON file compatible with GenAlphaXtor: 
 
 ```python
 import os, json
-open("env.json", "w").write(json.dumps(dict(os.environ), indent=4))
+open("env.json", "w").write(json.dumps(dict(os.environ), indent=2))
 ```
 
 ## Issues and Feature Requests
