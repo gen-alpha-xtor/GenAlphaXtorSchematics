@@ -5,11 +5,19 @@
 
 ![genalpha-sch-dark](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-dark.jpg)
 
-Generation Alpha Transistor (`GenAlphaXtor`) schematic editor enables editing real, working integrated circuit schematics live in VsCode. 
+The Generation Alpha Transistor (`GenAlphaXtor`) schematic editor enables editing real, working integrated circuit schematics live in VsCode. 
 
-## Preview Release
+## Access and Authentication
 
-GenAlphaXtor is available on a private preview basis. Contact [dan@fritch.mn](mailto:dan@fritch.mn) if you are interested in joining the trial! 
+`GenAlphaXtor` is available on a private preview basis. Contact [dan@fritch.mn](mailto:dan@fritch.mn) if you are interested in joining the trial! 
+
+`GenAlphaXtor` access is managed through [GitHub login, and its seamless VsCode integration](https://code.visualstudio.com/docs/sourcecontrol/github). Open a schematic or run the `GenAlphaXtor: Log In With GitHub` command to log in.
+
+![](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/github-popup.jpg)
+![](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/github-web.jpg)
+
+**Note:** __`GenAlphaXtor` will never, for any reason, no matter what, send your design data to GitHub, or anywhere else outside your own servers.__ 
+GitHub is used solely for user authentication and access validation. 
 
 ## Opening a Schematic or Symbol
 
