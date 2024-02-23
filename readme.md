@@ -1,9 +1,21 @@
 
 # Generation Alpha Transistor Schematic Editor
 
-![genalpha-sch-light](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-light.jpg)
+<picture>
+  <source 
+    media="(prefers-color-scheme: dark)" 
+    srcset="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-dark.jpg"
+  >
+  <source 
+    media="(prefers-color-scheme: light)" 
+    srcset="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-light.jpg"
+  >
+  <img 
+    alt="demo" 
+    src="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-light.jpg"
+  >
+</picture>
 
-![genalpha-sch-dark](https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-sch-dark.jpg)
 
 Generation Alpha Transistor (`GenAlphaXtor`) schematic editor enables editing real, working integrated circuit schematics live in VsCode. 
 
